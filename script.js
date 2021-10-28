@@ -3,18 +3,24 @@ console.log('------------- # 5');
 let a = 100;
 let b = 500;
 let c = a + b;
+let d = b - a;
+let e = a * b;
+let f = b / a;
 
 console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
 
 console.log('------------- # 6');
 
-for (let i = 1; i <= 5; i += 1) {
+for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
 
 console.log('------------- # 7');
 
-for (let i = 5; i >= 1; i -= 1) {
+for (let i = 5; i >= 1; i--) {
   console.log(i);
 }
 
@@ -97,7 +103,7 @@ console.log('------------- # 12');
 function countNumber(number) {
   let result = 0;
 
-  for (let i = 1; i <= number; i += 1) {
+  for (let i = 1; i <= number; i++) {
     result += i;
   }
 
